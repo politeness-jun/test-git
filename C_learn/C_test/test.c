@@ -50,6 +50,7 @@ typedef struct
 User users[MAX_USERS] = {{1, "admin", "admin123", "管理员", "", 1, 1}, {2, "reader", "123456", "普通读者", "", 0, 1}};
 Category categories[MAX_CATEGORY];
 Book books[MAX_BOOKS] = {{1, 1, 5, 5, "C程序设计", "谭浩强", "清华大学出版社", "C语言基础教材"}};
+
 Borrow borrows[MAX_BORROWS];
 Notice notices[MAX_NOTICES];
 
